@@ -25,9 +25,12 @@ Part of this exercise is to see how you approach problem solving in the context 
 Evaluation criteria
 
 We will take a look at the provided solution as a whole and consider:
+
 ● The quality/maintainability of the code delivered; quality is more important than a
 complete solution
+
 ● The user experience
+
 ● How the details of the exercise were approached
 Unit Tests
 
