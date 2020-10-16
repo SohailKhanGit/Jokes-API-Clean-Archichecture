@@ -62,7 +62,7 @@ Remote: In our implementation is the more external layer it send request to the 
 
 ![pat1](https://user-images.githubusercontent.com/67366816/96268416-f3999c00-0fc0-11eb-9691-96a0c593eff9.png)
 
-##Project folder structure
+## Project folder structure
 
 presentation: An android module that represents the presentation layer.
 
