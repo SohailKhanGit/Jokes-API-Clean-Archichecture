@@ -39,7 +39,7 @@ Unit Tests
 
 ### Architecture pattern
 
-[Clean Code](https://user-images.githubusercontent.com/67366816/96268006-69513800-0fc0-11eb-8aa3-44c36c753ae5.png)
+![Clean-Architecture-graph-650x488](https://user-images.githubusercontent.com/67366816/96268772-5e4ad780-0fc1-11eb-929b-cb9f4b73e0d5.png)
 
 To solve this challenger I have used clean archichecture implementation.
 
