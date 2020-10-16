@@ -39,6 +39,8 @@ Unit Tests
 
 To solve this challenger I have used clean archichecture implementation.
 
+Clean architecture is a software design philosophy that separates the elements of a design into ring levels. The main rule of clean architecture is that code dependencies can only come from the outer levels inward. Code on the inner layers can have no knowledge of functions on the outer layers.
+
 There are different opinions about how many layers Clean Architecture should have. The architecture doesn’t define exact layers but instead lays out the foundation. 
 The idea is that you adapt the number of layers to your needs.
 
