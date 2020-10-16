@@ -1,5 +1,7 @@
 Joke-Challenger-API-Clean-Archichecture
 
+![device-2020-10-16-151849](https://user-images.githubusercontent.com/67366816/96268622-2e9bcf80-0fc1-11eb-9fdb-66dca8134896.png)
+![device-2020-10-16-151913](https://user-images.githubusercontent.com/67366816/96268677-3d828200-0fc1-11eb-8a06-0c5cc96d50f8.png)
 # Android Technical Test
 
 ## Objective
@@ -37,6 +39,8 @@ Unit Tests
 
 ### Architecture pattern
 
+[Clean Code](https://user-images.githubusercontent.com/67366816/96268006-69513800-0fc0-11eb-8aa3-44c36c753ae5.png)
+
 To solve this challenger I have used clean archichecture implementation.
 
 Clean architecture is a software design philosophy that separates the elements of a design into ring levels. The main rule of clean architecture is that code dependencies can only come from the outer levels inward. Code on the inner layers can have no knowledge of functions on the outer layers.
@@ -47,10 +51,16 @@ The idea is that you adapt the number of layers to your needs.
 To keep things simple, you’ll use five layers:
 
 Presentation: A layer that interacts with the UI.
+
 Use cases: Sometimes called interactors. Defines actions the user can trigger.
+
 Domain: Contains the business logic of the app.
+
 Data: Abstract definition of all the data sources.
+
 Remote: In our implementation is the more external layer it send request to the API.
+
+![pat1](https://user-images.githubusercontent.com/67366816/96268416-f3999c00-0fc0-11eb-9691-96a0c593eff9.png)
 
 The benefits of clean code archichecture:
 
