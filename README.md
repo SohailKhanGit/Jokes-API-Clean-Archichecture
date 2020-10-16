@@ -62,6 +62,16 @@ Remote: In our implementation is the more external layer it send request to the 
 
 ![pat1](https://user-images.githubusercontent.com/67366816/96268416-f3999c00-0fc0-11eb-9691-96a0c593eff9.png)
 
+##Project folder structure
+
+presentation: An android module that represents the presentation layer.
+
+domain: A java module without android dependencies.
+
+data: An android module from where all the data is retrieved.
+
+data-test: Tests for the data layer. Due to some limitations when using Robolectric I had to use it in a separate java module.
+
 The benefits of clean code archichecture:
 
 Independent of Database and Frameworks. The software is not dependent on an ORM or Database. You can change them easily.
